@@ -1,0 +1,75 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+body
+{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, rgb(100,218,255), #97f194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    background-color: white;
+    width: fit-content;
+    padding: 20px;
+    box-shadow: 4px 4px 11px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+input
+{
+    padding: 7px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    border-radius: 12px;
+    box-shadow: 4px 4px 11px green;
+    color: white;
+    text-align: center;
+
+}
+h1
+{
+    color: white;
+    background-color: blue;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 4px 4px 11px green;
+
+}
+input[type="button"]
+{
+    background : linear-gradient(to right, rgb(229, 141, 141), rgb(158, 59, 59), red);
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 12px;   
+    box-shadow: 4px 4px 5px green; 
+}
+input[type="button"]:active
+{
+    box-shadow: inset 4px 4px 11px rgb(252, 164, 82) , inset -3px -3px 5px blue; 
+}
+label
+{
+    color: rgb(12, 214, 214);
+    padding: 12px;
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    color: #075a04;
+    text-align: center;
+}
